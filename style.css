@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E9E3D6;
+    font-family: "Saira", sans-serif;
+    font-weight: 400;
+}
+
+header{
+    padding: 2rem;
+    color: #ec8c8c;
+    background-color: #620a1a;
+}
+
+main {
+    color: #620a1a;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #620a1a;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #620a1a;
+    color: #ec8c8c;
+    padding: 0.5rem;
+}
+
+td {
+    background-color: transparent;
+    color: #620a1a;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tfoot td {
+    background-color: #620a1a;
+    color: #ec8c8c;
+}
+
+footer {
+    padding: 0.1rem;
+    text-align:center;
+    color: #620a1a;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e0052a;
+}
